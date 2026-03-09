@@ -24,6 +24,12 @@ A modern, e-commerce web application built with **React.js** — delivering a se
 </div>
 
 ---
+## 🌐 Live Deployment
+
+SwiftBuy is live on Netlify:
+
+🔗 **[https://swiftbuyy.netlify.app/](https://swiftbuyy.netlify.app/)**
+
 ---
 
 ## ✨ Features
@@ -109,14 +115,6 @@ npm run build
 ```bash
 npm run preview
 ```
-
----
-
-## 🌐 Live Deployment
-
-SwiftBuy is live on Netlify:
-
-🔗 **[https://swiftbuyy.netlify.app/](https://swiftbuyy.netlify.app/)**
 
 ---
 ---
