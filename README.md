@@ -43,6 +43,7 @@ SwiftBuy is live on Netlify:
 | 🔐 **User Signup** | Clean registration page for personalized shopping experience |
 | 🛒 **Add to Cart** | Interactive, real-time cart management to add & review items |
 | 🧭 **Smooth Navigation** | React Router DOM powered single-page navigation with zero page reloads |
+| 🏠 **State-Management** | States are managed and accessed using Context API |
 | 📱 **Not Responsive Design** | Yet to make |
 
 ---
@@ -52,6 +53,7 @@ SwiftBuy is live on Netlify:
 ```
 Frontend Framework  →  React.js
 Routing             →  React Router DOM
+State Management    →  Context Api
 Build Tool          →  Vite
 Styling             →  CSS3 (Custom Stylesheets)
 Deployment          →  Netlify
@@ -84,6 +86,7 @@ SwiftBuy/
 
 - ReactJs
 - React Router DOM
+- Context Api
 - basic CSS
 
 ### Installation
