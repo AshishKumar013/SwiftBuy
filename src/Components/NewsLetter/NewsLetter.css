@@ -1,52 +1,86 @@
-.newsletter{
-    width: 65%;
-    height: 40vh;
+.newsletter {
+    width: 90%;
+    max-width: 60rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: auto;
-    padding: 0px 140px;
-    margin-bottom: 150px;
+    margin: 0 auto 6rem;
+    padding: 4rem 5%;
     background: linear-gradient(180deg, #fde1ff 0%, #e1ffea22 60%);
-    gap: 30%;
+    gap: 1.5rem;
+    border-radius: 1rem;
+    text-align: center;
 }
-.newsletter h1{
-    margin-top: 120px;
-    color: #454545;
-    font-size: 55px;
-    font-weight: 600;
 
-}
-.newsletter p{
+.newsletter h1 {
     color: #454545;
-    font-size: 20px;
+    font-size: clamp(1.4rem, 4vw, 3.4rem);
+    font-weight: 600;
+    line-height: 1.2;
 }
-.newsletter div{
+
+.newsletter p {
+    color: #454545;
+    font-size: clamp(0.85rem, 1.5vw, 1.25rem);
+}
+
+.newsletter div {
     display: flex;
     align-items: center;
     justify-content: space-between;
     background: white;
-    width: 730px;
-    height: 70px;
+    width: 100%;
+    max-width: 45rem;
+    height: 4.375rem;
     border-radius: 80px;
     border: 1px solid #e3e3e3;
+    overflow: hidden;
 }
-.newsletter input{
-    width: 500px;
-    margin-left: 30px;
+
+.newsletter input {
+    flex: 1;
+    min-width: 0;
+    margin-left: 1.5rem;
     border: none;
     outline: none;
     color: #616161;
-    font-size: 16px;
-    font-family: poppins;
+    font-size: clamp(0.8rem, 1.5vw, 1rem);
+    font-family: inherit;
+    background: transparent;
 }
-.newsletter div button{
-    width: 210px;
-    height: 70px;
+
+.newsletter div button {
+    flex-shrink: 0;
+    width: clamp(7rem, 15vw, 13rem);
+    height: 4.375rem;
     border-radius: 80px;
-    background:black;
+    background: black;
     color: white;
-    font-size: 16px;
+    font-size: clamp(0.8rem, 1.5vw, 1rem);
     cursor: pointer;
+    border: none;
+}
+
+/* ── Mobile ── */
+@media (max-width: 500px) {
+    .newsletter {
+        padding: 2.5rem 4%;
+        gap: 1.2rem;
+    }
+
+    .newsletter div {
+        height: 3.5rem;
+    }
+
+    .newsletter div button {
+        height: 3.5rem;
+        width: 7.5rem;
+        font-size: 0.8rem;
+    }
+
+    .newsletter input {
+        margin-left: 1rem;
+        font-size: 0.8rem;
+    }
 }
