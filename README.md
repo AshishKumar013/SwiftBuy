@@ -5,7 +5,7 @@
 
 ### *Shop Smart. Shop Swift.*
 
-A modern, e-commerce web application built with **React.js** — delivering a seamless shopping experience for Men, Women & Kids.Smooth navigation across pages using React Router DOM, with add to card functionality.
+A modern, e-commerce web application built with **React.js** - delivering a seamless shopping experience for Men, Women & Kids.Smooth navigation across pages using React Router DOM, with add to card functionality.
 
 <br/>
 
@@ -147,11 +147,6 @@ Contributions are welcome and appreciated! Here's how you can help:
 
 Please make sure your code follows the existing style and passes ESLint checks.
 
----
-
-## 📄 License
-
-This project is open-source and available under the [MIT License](LICENSE).
 
 ---
 
@@ -163,7 +158,6 @@ This project is open-source and available under the [MIT License](LICENSE).
 
 [![GitHub](https://img.shields.io/badge/GitHub-AshishKumar013-181717?style=flat-square&logo=github)](https://github.com/AshishKumar013)
 
-*Built with ❤️ and React.js*
 
 </div>
 
